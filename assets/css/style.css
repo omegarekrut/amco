@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'gotham';
+    src: url('../fonts/Gotham-Light.eot');
+    src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg'),
+        url('../fonts/Gotham-Light.ttf') format('truetype'),
+        url('../fonts/Gotham-Light.woff') format('woff'),
+        url('../fonts/Gotham-Light.woff2') format('woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'gotham-bold';
+    src: url('../fonts/Gotham-Bold.eot');
+    src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff'),
+        url('../fonts/Gotham-Bold.ttf') format('truetype'),
+        url('../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
+    font-weight: normal;
+}
+
+.nav-height {
+    max-height: 24px !important;
+}
+
+.img-logo {
+    max-height: 30px;
+}
+
+.font-gotham {
+    font-family: 'gotham' !important;
+}
+
+.font-gotham-bold {
+    font-family: 'gotham-bold' !important;
+}
+
+.fs-8 {
+    font-size: .5em;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.z-index-line {
+    z-index: -1;
+}
+
+.checkbox{
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+
+}
+.checkbox:checked {
+    background-color: #a1a1a1;
+}
+ul{
+    padding-left:1rem;
+}
